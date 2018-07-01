@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label fixed>Ip</ion-label>
+    <ion-input type="text" [(ngModel)]="ip"></ion-input>
+  </ion-item>
+
+
+  <button ion-button [ngStyle]="{width:'100%', 'margin-top' : '10px' }" (click)="onClick(37)">Bec Hol</button>
+  <button ion-button [ngStyle]="{width:'100%', 'margin-top' : '10px' }" (click)="onClick(47)">Bec Dormitor</button>
+  <button ion-button [ngStyle]="{width:'100%', 'margin-top' : '10px' }" (click)="onClick(45)">Bec Baie</button>
+  <button ion-button [ngStyle]="{width:'100%', 'margin-top' : '10px' }" (click)="onClick(39)">Bec Bucatarie</button>
+
+
+</ion-content>
